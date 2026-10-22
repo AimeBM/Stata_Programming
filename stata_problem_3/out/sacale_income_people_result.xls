@@ -1,0 +1,44 @@
+Estimations pour le modèle logit et les effets marginaux
+------------------------------------
+                              (1)   
+                     RECODE of ~b   
+------------------------------------
+RECODE of V24 (Mos~b                
+second step                 0.212***
+                          (0.032)   
+
+Third step                  0.309***
+                          (0.028)   
+
+Fourth step                 0.380***
+                          (0.027)   
+
+Fifth step                  0.332***
+                          (0.025)   
+
+Sixth step                  0.551***
+                          (0.026)   
+
+Seventh step                0.650***
+                          (0.027)   
+
+Eigth step                  0.648***
+                          (0.030)   
+
+Nineth step                 0.952***
+                          (0.042)   
+
+Tenth step                  0.866***
+                          (0.043)   
+
+Constant                   -1.561***
+                          (0.022)   
+------------------------------------
+Number of obs          177349.000   
+LR chi2(9)               1347.022   
+Prob > chi2                 0.000   
+Pseudo R2                   0.007   
+------------------------------------
+Standard errors in parentheses
+Effets marginaux calculés pour scale_incomes
+* p<0.05, ** p<0.01, *** p<0.001

@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\MISSONGO\Documents\AMSE Master 1\Statistical software for empirical projects
+> \Problem set\learning_stata_problem_3\out/scale_incomes_people.docx
+  log type:  text
+ opened on:   6 Feb 2025, 15:49:10
+
+. 
+. tab scale_incomes people , col nofreq chi2 
+
+                      |  RECODE of V24 (Most
+                      |     people can be
+                      |       trusted)
+     Scale of incomes | Not trust      Trust |     Total
+----------------------+----------------------+----------
+           Lower step |      8.64       5.65 |      7.91 
+          second step |      6.88       5.55 |      6.55 
+           Third step |     11.77      10.47 |     11.46 
+          Fourth step |     14.01      13.39 |     13.86 
+           Fifth step |     23.30      21.21 |     22.79 
+           Sixth step |     14.89      16.87 |     15.37 
+         Seventh step |     11.19      14.00 |     11.87 
+           Eigth step |      6.07       7.59 |      6.44 
+          Nineth step |      1.63       2.75 |      1.90 
+           Tenth step |      1.62       2.52 |      1.84 
+----------------------+----------------------+----------
+                Total |    100.00     100.00 |    100.00 
+
+          Pearson chi2(9) =  1.4e+03   Pr = 0.000
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\MISSONGO\Documents\AMSE Master 1\Statistical software for empirical projects
+> \Problem set\learning_stata_problem_3\out/scale_incomes_people.docx
+  log type:  text
+ closed on:   6 Feb 2025, 15:49:10
+--------------------------------------------------------------------------------------------------
